@@ -19,6 +19,10 @@
     align-items: center;
 }
 
-.cabecalho__imagem {
+.cabecalho {
     padding: 1em;
+}
+
+.cabecalho__imagem {
+    margin: 0 0.5em;
 }
