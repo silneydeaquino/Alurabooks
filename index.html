@@ -11,18 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="cabecalho">
-        <div class="container">
-
+        <div class="container container__logo" style="display: flex;">
             <span class="cabecalho__menu-hamburguer cabecalho__imagem"></span>
             <img src="assets/img/Logo.svg" alt="Logo AluraBooks" class="cabecalho__imagem">
+            <h1 class="cabecalho__titulo"><b>Alura</b>Books</h1>
         </div>
-        <div class="container">
-            <a href="#"><img src="assets/img/Favoritos.svg" alt="Meus Favoritos" class="cabecalho__imagem"></a>
+        <ul class="cabecalho__lista">
+            <li class="lista__itens">Categoria</li>
+            <li class="lista__itens">Favoritos</li>
+            <li class="lista__itens">Minha Estante</li>
+        </ul>
+        <div class="container container__icones">
+            <a href="#"><img src="assets/img/Favoritos.svg" alt="Meus Favoritos" class="cabecalho__imagem cabecalho__imagem--favoritos"></a>
             <a href="#"><img src="assets/img/Compras.svg" alt="Carrinhos de Compras" class="cabecalho__imagem"></a>
-            <a href="#"><img src="assets/img/Usuario.svg" alt="Meu Perfil" class="cabecalho__imagem" ></a>
+            <a href="#"><img src="assets/img/Usuario.svg" alt="Meu Perfil" class="cabecalho__imagem cabecalho__imagem--perfil" ></a>
         </div>
     </header>
 

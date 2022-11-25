@@ -26,3 +26,45 @@
 .cabecalho__imagem {
     margin: 0 0.5em;
 }
+
+@media screen and (min-width: 1024px) {
+    .cabecalho{
+        padding: 1em 5em;
+    }
+
+    .container__logo {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+    .cabecalho__titulo {
+        font-family: var(--fonte-secundaria);
+        color: var(--preto);
+        font-size: 30px;
+    }
+
+    .cabecalho__titulo b {
+        font-weight: 700;
+    }
+
+    .cabecalho__lista {
+        display: flex;
+        column-gap: 32px;
+    }
+
+    .lista__itens {
+        color: var(--preto);
+        text-transform: uppercase;
+    }
+
+    .cabecalho__imagem--perfil{
+        padding-left: 1em;
+    }
+
+    .cabecalho__imagem--favoritos {
+        display: none;
+    }
+}
